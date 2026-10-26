@@ -1,0 +1,11 @@
+{
+  "schemaVersion": 1,
+  "id": "maceshush",
+  "version": "${version}",
+  "name": "MaceShush",
+  "description": "Hides MaceCore log messages from the Minecraft chat (client-side filter).",
+  "environment": "client",
+  "license": "CC0-1.0",
+  "mixins": ["maceshush.mixins.json"],
+  "depends": { "fabricloader": ">=0.16.14", "minecraft": "1.21.11", "java": ">=21" }
+}
